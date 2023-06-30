@@ -1,0 +1,35 @@
+
+.reviews{
+  margin-left: 25px;
+    width: 380px;
+    height: auto;
+    -webkit-box-shadow: 0px 0px 8px -4px rgba(0,0,0,0.75);
+}
+
+.rimgs{
+    height: 50px;
+    width: 50px;
+}
+
+.rimgs2{
+    height: 50px;
+    width: 80px;
+    position: relative;
+   left: 80%;
+}
+
+.rtext{
+    margin-left: 50px;
+    width: 80%;
+    font-family: 'Agdasima', sans-serif;
+    font-size: 20px;
+}
+.info{
+    font-family: 'Agdasima', sans-serif;
+    position: relative;
+    left: 60%;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  
+}

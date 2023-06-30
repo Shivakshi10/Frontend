@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titleContainer{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 98.7vw;
+    display: flex;
+    flex-direction: column;
+ justify-content: center;  
+    align-items: center;
+}
+
+.titlebg{
+    height: 100vh;
+    width: 98.8vw;
+    object-fit: cover;
+    position: absolute;
+    opacity: 1;
+    z-index: -1;
+    overflow: hidden;
+   
+}
+
+
+.titleHead{
+  
+font-family: 'Agdasima', sans-serif;
+width: 40%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.titleh{
+    font-size: 115px;
+    color: white;
+    animation: 2s anim-lineUp ease-out ;
+   
+}
+
+.titledesc{
+    font-size: 35px;
+    color: white;
+    animation: 2s anim-lineUp ease-out ;
+text-align: center;
+}
+
+@keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+    }
+
+.about{
+    display: flex;
+    height: 100vh;
+   
+}
+
+.bg{
+    position: absolute;
+    height: 520px;
+    width: 80%;
+    background-color: rgb(17, 71, 17);
+    border-radius: 10px;
+    z-index: -1;
+    right: 0;
+   
+}
+
+.aleft{
+    flex: 1.0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aimg{
+    height: 450px;
+    width: 75%;
+    border-radius: 20px;
+    -webkit-box-shadow: -1px 3px 12px 2px rgba(0,0,0,0.75);
+}
+
+.aright{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+    
+}
+
+.ahead{
+    color: white;
+    font-size: 50px;
+    font-family: 'Agdasima', sans-serif;
+    margin-top: 
+    30px;
+}
+
+.adesc{
+    color: white;
+    font-family: 'Agdasima', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.WorkContainer{
+    width: 100%;
+    height: 98vh;
+    background: rgba(6, 6, 6, 0.788);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.workimg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+position: absolute;
+z-index: -1;
+}
+
+.whead{
+    color: white;
+    font-size: 50px;
+    font-family: 'Agdasima', sans-serif;
+}
+
+.wboxes{
+    height: 300px;
+    display: flex;
+    margin-top: 90px;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+}
+
+.welements{
+    height: 300px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding: 15px;
+}
+
+.number{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(17, 71, 17);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wdesc{
+    color: white;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.PriceContainer{
+    height: 80vh;
+    width: 90vw;
+}
+
+.pHEAD{
+    margin-top: 25px;
+    width: 100%;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Phead{
+    font-family: 'Agdasima', sans-serif;
+   
+    font-size: 60px;
+}
+
+.pelements{
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.insideContainer{
+    height: 100vh;
+    width: 99vw;
+   background-color: rgb(231, 231, 231);
+}
+
+.inside{
+    display: flex;
+    height: 100vh;
+    flex-direction: row-reverse;
+}
+
+.ileft{
+    flex: 1;
+    height: 100vh;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+
+.iimg{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.iright{
+height: 100vh;
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ihead{
+    font-family: 'Agdasima', sans-serif;
+  
+    font-size: 60px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.listitem{
+    font-family: 'Agdasima', sans-serif;
+   margin-top: 10px;
+    font-size: 30px;
+}
+
+.circle{
+    margin-right: 10px;
+}
+
+.right{
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.ibutton{
+    margin-top: 60px;
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(14, 61, 14);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ibutton:hover{
+    background-color: rgb(15, 32, 15);
+}
+
+.ReviewContainer{
+    width: 100%;
+    height: 90vh;
+}
+
+.header{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rhead{
+    font-family: 'Agdasima', sans-serif;
+  
+    font-size: 60px;
+}
+
+.rdesc{
+    font-family: 'Agdasima', sans-serif;
+  
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.reviewbox{
+    margin-top: 30px;
+    width: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.CatContainer{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(170, 243, 170);
+    border-radius: 30px 30px 30px 30px;
+    display: flex;flex-direction: column;
+}
+
+.catdiv{
+    height: 60px;
+    display: flex;
+position: relative;
+}
+
+.catleft{
+    flex: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Agdasima', sans-serif;
+  margin-top: 80px;
+font-size: 60px;
+
+}
+
+.catright{
+    flex: 1.6;
+    display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 80px;
+}
+
+.cattext{
+    width: 400px;
+    font-family: 'Agdasima', sans-serif;
+  
+font-size: 23px;
+}
+
+.catelements{
+    position: relative;
+    margin-top: 80px;
+    width: 100%;
+    height:400px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.items{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
